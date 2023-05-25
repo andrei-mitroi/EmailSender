@@ -21,5 +21,4 @@ public class EmailController {
         this.emailSenderService.send(emailMessage.getTo(), emailMessage.getSubject(), emailMessage.getMessage());
         return ResponseEntity.ok("Success");
     }
-
 }
